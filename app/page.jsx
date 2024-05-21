@@ -32,7 +32,7 @@ export default function Page() {
         <main className="flex flex-col gap-8 sm:gap-16">
             <section className="flex flex-col items-start gap-3 sm:gap-4">
                 <div className="relative">
-                    <img src="../public/images/MidjourneyCNS.png" alt="background" className="absolute inset-0 object-cover" />
+                    <img src="../public/images/MidjourneyCNS.png" alt="background" />
                 </div>
                     
                 <ContextAlert />
