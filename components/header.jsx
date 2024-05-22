@@ -45,12 +45,12 @@ export function Header() {
                     <Image src={CNSLogo} alt="CNS logo" width={30} height={30} />
                 </a></li>
                 {navItems.map((item, index) => (
-                    <li>
+                    <li key={index}>
                         <a href={item.href}>{item.mainText}</a>
                         {item.items && (
                             <ul class="dropdown">
                                 {item.items.map((item, index) => (
-                                    <li><a href={item.href}>{item.linkText}</a></li>
+                                    <li key={index}><a href={item.href}>{item.linkText}</a></li>
                                 ))}
                             </ul>
                         )}
