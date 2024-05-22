@@ -35,7 +35,7 @@ export default function Page() {
                     <img src="/images/midjourneycns.png" alt="background" />
                 </div>
                     
-                <ContextAlert />
+                {/* <ContextAlert />
                 <h1 className="mb-0">Netlify Platform Starter - Next.js</h1>
                 <p className="text-lg">Get started with Next.js and Netlify in seconds.</p>
                 <Link
@@ -43,9 +43,9 @@ export default function Page() {
                     className="btn btn-lg btn-primary sm:btn-wide"
                 >
                     Read the Docs
-                </Link>
+                </Link> */}
             </section>
-            {!!ctx && (
+            {/* {!!ctx && (
                 <section className="flex flex-col gap-4">
                     <Markdown content={contextExplainer} />
                     <RuntimeContextCard />
@@ -55,7 +55,7 @@ export default function Page() {
                 <Markdown content={preDynamicContentExplainer} />
                 <RandomQuote />
                 <Markdown content={postDynamicContentExplainer} />
-            </section>
+            </section> */}
             {/* !!cards?.length && <CardsGrid cards={cards} /> */}
         </main>
     );
